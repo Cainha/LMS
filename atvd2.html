@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<header>
+    <h1 style="text-align: center; color:#000000;">
+        Gatinhos
+    </h1>
+</header>
+    <head>
+        <title>Gatinhos</title>
+    </head>
+    <body>
+        <section>
+            <p>
+                 <ul style = "list-style:none; text-align: center;">
+            <li>
+                <!--primeiro item da lista, coloquei uma imagem com link pra o meme do gato da imagem,
+                    ajustei também o tamanho, coloquei um titulo e descrição-->
+                <a href="https://www.youtube.com/shorts/N3xtbPldeQ4">
+                <img src="C:\Users\cainh\Downloads\images.jpg"
+                title="meme do gato"
+                alt="gato preto olhando entediado"
+                width="300"
+                height="300">
+            </li></a>
+
+            <li>
+                <!--segundo item da lista, coloquei um link e o titulo di
+                    ajustei também o tamanho da imagem e coloquei um titulo e descrição-->
+                <a href="https://www.doglife.com.br/blog/racas-gatos-5ee7dcc070059d19d9423e4a/">
+                <strong>Raças de gatos</strong>
+            </a></li>
+
+            <li>
+                <a href="https://www.hospvetsantamarinha.com/blog/60-curiosidades-gatos/">
+                <strong>Curiosidades sobre os gatos</strong> 
+            </a></li>
+            </ul>
+            
+             </p>
+        </section>
+
+    <!--aqui eu coloquei um style pra estilizar cada tag da pagina de uma forma que
+         ficasse mais bonito-->
+    <section>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 10px;
+        }
+        th {
+            background-color: #96C291;
+        }
+        input {
+            border: 1px solid #000000;
+            padding: 5px;
+        }
+        header{
+            padding: 10px;
+            background-color: #96C291;
+        }
+        footer{
+            padding: 30px;
+            background-color: #96C291;
+        }
+        
+    </style>
+    </section>
+
+    <section>
+        <h1 style="color: #000000; text-align: center;">
+            Espécies de gatos
+        </h1>
+        <table>
+            <tr>
+                <!--defini o os titulos de cada coluna da tabela, nome, origem e curiosidades-->
+                <th>Nome</th>
+                <th>Origem</th>
+                <th>Curiosidade</th>
+            </tr>
+            <tr>
+                <td>Persa</td>
+                <td>Pérsia</td>
+                <td>Essa é a espécie do Garfield</td>
+            </tr>
+            <tr>
+                <td>British Shorthair</td>
+                <td>Reino Unido</td>
+                <td>É a espécie do gato de Alice <br> no país das maravilhas</td>
+            </tr>
+            <tr>
+                <td>Sphynx</td>
+                <td>Canadá</td>
+                <td>Leva o nome devido a sua aparecia <br> ser similar às esfinges</td>
+            </tr>
+    </table>
+    </section>
+
+    <br>
+    <article style="text-align: center;">
+        <form action="/https://www.w3schools.com/action_page.php" method="get">
+            <h1>
+                Você gosta de gatos?
+            </h1>
+
+            <!--Coloquei todas as perguntas em negrito usando a tag strong 
+            de forma que desse mais destaque-->
+            <strong> Qual o seu primeiro nome?<br></strong>
+            <input type="text" maxlength="15"><br>
+            <br>
+
+            <strong>Você tem gatos? <br></strong>
+            <!--tive dificuldade aqui, pois na pagina ele fica marcado as duas opções-->
+            <input type="radio" name="tem" checked> Sim<br>
+            <input type="radio" name="não tem" checked> Não<br>
+            <br>
+            
+            <strong>Se sim, quantos?<br></strong>
+            <!--Nesse campo numerico alterei a quantidade mínima e máxima-->
+            <input type="number" value="1" min="1" max="50"><br>
+            <br>
+
+            <strong>Qual sua cor de gato favorito?<br></strong> 
+            <!--nessa parte aqui deu certo o checkbox, só é possível marcar uma opção-->
+            <input type="radio" name="cores de gatos" value="Frajola" checked> Frajola<br>
+            <input type="radio" name="cores de gatos" value="Rajado" checked> Rajado<br>
+            <input type="radio" name="cores de gatos" value="Branco" checked> Branco<br>            
+            <input type="radio" name="cores de gatos" value="Preto" checked> Preto<br>
+            <input type="radio" name="cores de gatos" value="Laranja" checked> Laranja<br>
+            <input type="radio" name="cores de gatos" value="Marrom" checked> Marrom<br>
+            <br>
+
+            <strong>O que você acha de gatos?<br></strong>
+            
+            <input type="checkbox" name="">Fofos<br>
+            <input type="checkbox" name="">Brincalhões<br>
+            <input type="checkbox" name="">Preguiçosos<br>
+            <input type="checkbox" name="">Sapecas<br>
+            <input type="checkbox" name="">Independentes<br>
+            <input type="checkbox" name="">Carinhosos<br>
+            <input type="checkbox" name="">Curiosos<br>
+
+
+            <br>
+            <input style="background-color: #F3FDE8; "  type="submit">
+            <br>
+
+        </form>
+    </article>
+
+    <br>
+    <!--Rodapé-->
+    <footer>
+        Desenvolvido por Carolaine Lima
+    </footer>
+</body>
+</html>
+        
